@@ -1,0 +1,40 @@
+site_name: Teamstudio Usage Auditor 5.0
+
+nav:
+  - 'index.md'
+  - 'installing.md'
+  - 'Using Usage Auditor':
+    - 'using.md'
+    - 'configuring.md'
+    - 'scanning.md'
+    - 'Viewing Usage Statistics':
+      - 'viewing.md'
+      - 'database.md'
+      - 'user.md'
+  - 'release.md'
+  
+theme:
+  name: material
+  
+extra:
+  alternate:
+    - name: English
+      link: ./
+      lang: en
+    - name: 日本語
+      link: ./ja/
+      lang: ja  
+
+markdown_extensions:
+  - admonition
+  - md_in_html
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - i18n:
+      default_language: en
+      default_language_only: false
+      languages:
+        ja: 日本語
