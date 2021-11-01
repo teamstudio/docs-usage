@@ -38,3 +38,7 @@ plugins:
       default_language_only: false
       languages:
         ja: 日本語
+      nav_translations:
+        ja:
+          Using Usage Auditor: Usage Auditor の使い方
+          Viewing Usage Statistics: 利用状況の統計を見る

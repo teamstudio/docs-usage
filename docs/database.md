@@ -1,6 +1,7 @@
 # Database Usage Statistics
 
 Teamstudio Usage Auditor reports the following categories of usage:
+
 * Overall applications usage
 * User-specific usage
 * Agent-specific statistics
@@ -8,7 +9,7 @@ Teamstudio Usage Auditor reports the following categories of usage:
   ![Database Statistics](img/database.png)
 </figure>
  
-At each level, the total activity counts and last access dates are shown. For more detail on how activity counts are collected, see Scanning Servers](scanning.md).
+At each level, the total activity counts and last access dates are shown. For more detail on how activity counts are collected, see [Scanning Servers](scanning.md).
 
 The Database document also shows information on the number of Unique Users, User Days, and if appropriate the last date on which the Users table was reset.
 
@@ -45,7 +46,7 @@ Note that Unique Users counts are affected by reset/ignore events since they are
 
 When a database document has been reset, the Unique User count will reset as well, however the database document will also display the Unique User count prior to the reset. The database views will show the higher of the two counts, followed by a plus (**+**) sign, to indicate that the total unique count may be higher.
 
-If a database is marked Ignore, either manually, or by hitting the user table limit, Unique Users will no longer be tracked; A plus (**+**) sign will be displayed following the Unique Count in views to indicate that the total unique count may be higher
+If a database is marked Ignore, either manually, or by hitting the user table limit, Unique Users will no longer be tracked; A plus (**+**) sign will be displayed following the Unique Count in views to indicate that the total unique count may be higher.
 
 For information on configuring servers to Ignore or Reset when this limit is hit, see the section on **Cutoff Action** in [Configuring Usage Auditor](configuring.md).
  

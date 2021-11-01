@@ -24,13 +24,13 @@ Backing up the Usage Auditor database prior to re-import is strongly recommended
 This feature is available via the Actions > Admin > Re-import from saved CSV data agent.
 
 ## Fixes and Enhancements
-[TMS-458] - Fix issue where 5.0.0 fails to identify web usage for some server configurations
-[TMS-421] - License key dialog now provides example License Number and Serial Key formats
-[TMS-462] - Trending data is now generated in-line during activity import
-[TMS-461] - Fix issue where trend data can become inaccurate after first 2 months of trends
-[TMS-463] - Add ability to re-import usage statistics from saved "supporting files"
-[TMS-465] - Fix issue where usage activity occurring in the same 100th of a second could be duplicated during re-import
-[TMS-464] - Fix issue where 5.0.0 can incorrectly record "days used" due to case-sensitive db path matching
+[TMS-458] - Fix issue where 5.0.0 fails to identify web usage for some server configurations  
+[TMS-421] - License key dialog now provides example License Number and Serial Key formats  
+[TMS-462] - Trending data is now generated in-line during activity import  
+[TMS-461] - Fix issue where trend data can become inaccurate after first 2 months of trends  
+[TMS-463] - Add ability to re-import usage statistics from saved "supporting files"  
+[TMS-465] - Fix issue where usage activity occurring in the same 100th of a second could be duplicated during re-import  
+[TMS-464] - Fix issue where 5.0.0 can incorrectly record "days used" due to case-sensitive db path matching  
 [TMS-581] - Fix issue where user lookup can fail to create a user and log an error "Item or match not found"
 
 ## Teamstudio Usage Auditor 5.0
