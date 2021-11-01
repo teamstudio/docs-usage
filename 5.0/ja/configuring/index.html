@@ -14,7 +14,7 @@
     
     
       
-        <title>Configuring Usage Auditor - Teamstudio Usage Auditor 5.0</title>
+        <title>Usage Auditor を設定する - Teamstudio Usage Auditor 5.0</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#configuring-usage-auditor" class="md-skip">
+        <a href="#usage-auditor" class="md-skip">
           コンテンツにスキップ
         </a>
       
@@ -93,7 +93,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Configuring Usage Auditor
+              Usage Auditor を設定する
             
           </span>
         </div>
@@ -222,7 +222,7 @@
   
     <li class="md-nav__item">
       <a href="../installing/" class="md-nav__link">
-        Installing Usage Auditor
+        Usage Auditor のインストール
       </a>
     </li>
   
@@ -247,14 +247,14 @@
       
       
         <label class="md-nav__link" for="__nav_3">
-          Using Usage Auditor
+          Usage Auditor の使い方
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Using Usage Auditor" data-md-level="1">
+      <nav class="md-nav" aria-label="Usage Auditor の使い方" data-md-level="1">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
-          Using Usage Auditor
+          Usage Auditor の使い方
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -265,7 +265,7 @@
   
     <li class="md-nav__item">
       <a href="../using/" class="md-nav__link">
-        Overview
+        紹介
       </a>
     </li>
   
@@ -288,12 +288,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Configuring Usage Auditor
+          Usage Auditor を設定する
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Configuring Usage Auditor
+        Usage Auditor を設定する
       </a>
       
         
@@ -313,8 +313,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#settings" class="md-nav__link">
-    Settings
+  <a href="#_1" class="md-nav__link">
+    設定
   </a>
   
 </li>
@@ -335,7 +335,7 @@
   
     <li class="md-nav__item">
       <a href="../scanning/" class="md-nav__link">
-        Scanning Servers
+        サーバーのスキャン
       </a>
     </li>
   
@@ -357,14 +357,14 @@
       
       
         <label class="md-nav__link" for="__nav_3_4">
-          Viewing Usage Statistics
+          利用状況の統計を見る
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Viewing Usage Statistics" data-md-level="2">
+      <nav class="md-nav" aria-label="利用状況の統計を見る" data-md-level="2">
         <label class="md-nav__title" for="__nav_3_4">
           <span class="md-nav__icon md-icon"></span>
-          Viewing Usage Statistics
+          利用状況の統計を見る
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -375,7 +375,7 @@
   
     <li class="md-nav__item">
       <a href="../viewing/" class="md-nav__link">
-        Overview
+        紹介
       </a>
     </li>
   
@@ -389,7 +389,7 @@
   
     <li class="md-nav__item">
       <a href="../database/" class="md-nav__link">
-        Database Usage Statistics
+        データベース利用状況の統計
       </a>
     </li>
   
@@ -403,7 +403,7 @@
   
     <li class="md-nav__item">
       <a href="../user/" class="md-nav__link">
-        User Usage Statistics
+        ユーザー利用状況の統計
       </a>
     </li>
   
@@ -432,7 +432,7 @@
   
     <li class="md-nav__item">
       <a href="../release/" class="md-nav__link">
-        Release Notes
+        リリースノート
       </a>
     </li>
   
@@ -466,8 +466,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#settings" class="md-nav__link">
-    Settings
+  <a href="#_1" class="md-nav__link">
+    設定
   </a>
   
 </li>
@@ -485,40 +485,39 @@
               
                 
                 
-                <h1 id="configuring-usage-auditor">Configuring Usage Auditor</h1>
-<p>Teamstudio Usage Auditor is configured by creating <strong>Server Configuration</strong> documents and specifying options to control how data is collected.</p>
-<p><strong>Server Configurations</strong> can be disabled or enabled by selecting configuration documents and clicking the <strong>Deactivate</strong> or <strong>Activate</strong> action in the view.</p>
-<p>To create a new <strong>Server Configuration</strong>, navigate to the <strong>Admin &gt; Server Configurations</strong> view via the left-hand navigator, and click the <strong>Create Configuration</strong> action.</p>
-<p>A new <strong>Server Configuration</strong> document will appear. Inline help is visible when the document is in edit mode. See below for detailed descriptions of these settings.</p>
+                <h1 id="usage-auditor">Usage Auditor を設定する</h1>
+<p>Teamstudio Usage Auditor は「<strong>Server Configuration</strong>」文書を作成し、データ収集方法の制御オプションを指定して設定を行います。</p>
+<p>「<strong>Server Configuration</strong>」はビュー上に表示されている設定文書を選択し「<strong>Deactivate</strong>」や「<strong>Activate</strong>」アクションをクリックして無効化したり有効化できます。</p>
+<p>新規の「<strong>Server Configuration</strong>」を作成するには、左のナビゲーターから「<strong>Admin</strong>」&gt; 「<strong>Server Configuration</strong>」ビューから「<strong>Create Configuration</strong>」アクションをクリックします。</p>
+<p>「<strong>Server Configuration</strong>」文書が表示されます。文書が編集モードのときにインラインヘルプが利用できます。これらの設定に関しての説明は以下に説明します。</p>
 <figure>
 <p><img alt="Server Configuration" src="../../img/configuring.png" /></p>
 </figure>
-<h2 id="settings">Settings</h2>
-<p><strong>Servers To Scan</strong>: Enter or choose the name of the server(s) that should be scanned when this configuration is run. Multiple servers can be listed, one per line, if the same settings are desired for each. Alternately, separate configuration documents can be used for each server.</p>
-<p><strong>Status</strong>: Active server configurations will be scanned when the specified <strong>Scanning Server</strong> instance runs scans. Configurations can be marked <strong>Inactive</strong> to temporarily disable scanning.</p>
-<p><strong>Scanning Server</strong>: Select <strong>Local</strong> to run the scan on the current workstation. Because of the intensive processing involved in collecting and reporting on usage statistics, it is not currently recommended to run Usage Auditor on server.</p>
-<p><strong>Mail Folder</strong>: List folder(s) one per line whose content should be identified as <strong>Mail</strong> databases. Databases marked as <strong>Mail</strong> can be hidden from <strong>Database</strong> views to make it easier to analyze usage of other applications.</p>
-<p><strong>User Lookup</strong>: Choose Yes to enable Domino Directory (Address Book) lookups when user names are processed. Enabling this feature will identify the type of user as <strong>User</strong>, <strong>Server</strong>, or <strong>Unknown</strong>.</p>
-<p>If this setting is set to <strong>No</strong>, no lookup will occur, and all user names will be marked as <strong>Users</strong>.</p>
-<p>On Notes/Domino prior to version 8, the file name of the address book must also be specified. This file name is ignored on Notes/Domino 8+.</p>
-<p><strong>Ignore Threshold</strong>: This setting can be configured to limit the number of users added to the User table on Database documents. Once the limit is hit, the Database document will be automatically marked Ignore (see <strong>Cutoff Action</strong> below), and user-level activity will not be tracked. Ignored databases can also be hidden from views.</p>
-<p>This setting is useful for focusing analysis on databases that fall within lower usage limits. For example, if only applications with less than 50 user will be considered for decommission or moved to another server, this setting can be used to reduce clutter from higher use databases in the views.</p>
-<p><strong>Size Limit Cutoff Action</strong>: Defines what action will be taken when the User table on Database documents has grown too large to store.</p>
-<p>Usage Auditor stores user names of users who have accessed an application in the Database document, to provide a consolidated view of usage. Notes/Domino limits the amount of “summary data” (data that can be displayed in views) to approximately 64K. This limit is typically hit in the vicinity of 1000 names, although it can vary greatly depending on the average length of the names in use. In order to manage this limitation, Usage Auditor can do one of two things when this limit is approached:</p>
+<h2 id="_1">設定</h2>
+<p><strong>Servers To Scan</strong>: この設定でスキャンする対象のサーバー名を入力または選択します。複数サーバーにまたがる場合には、一行ごとにサーバーをリストしてください。あるいは、別のサーバー設定文書を作成してひとつひとつサーバーを指定しても構いません。</p>
+<p><strong>Status</strong>: 有効化(Active)にすると <strong>Scanning Server</strong> で指定した対象のサーバーをスキャンするようになります。逆にスキャンを無効にしたい場合には、設定を無効化します。</p>
+<p><strong>Scanning Server</strong>: 現在のワークステーション上でスキャンを実行するには <strong>Local</strong> を選択します。利用状況の統計を収集し、レポートするのに負荷の大きい処理が必要なため、現在のところ Usage Auditor をサーバー上で起動するのは推奨されていません。</p>
+<p><strong>Mail Folder</strong>: メールデータベースが存在するフォルダーを一行につきひとつフォルダー名を指定してください（通常は「mail」）。メールとして認識されたデータベース群は <strong>Database</strong> ビューで非表示となり、他の業務アプリケーションの利用状況を分析するが容易になります。</p>
+<p><strong>User Lookup</strong>: <strong>Yes</strong> を選択するとドミノディレクトリー（アドレス帳）を参照し、ユーザー名が処理されます。この機能を有効にするとユーザーのタイプを <strong>User</strong>, <strong>Server</strong>, または <strong>Unknown</strong> のタイプに振り分けます。</p>
+<p><strong>No</strong> を指定すると、参照は行わず、すべてのユーザー名は <strong>Users</strong> として識別されます。</p>
+<p>Notes/Domino のバージョン 8 より前のバージョンでは、アドレス帳のファイル名を必ず指定してください。このファイル名は Notes/Domino 8 以上では無視されます。</p>
+<p><strong>Ignore Threshold</strong>: この設定で Database 文書内の User List テーブルに追加するユーザーの数を制限できます。制限値に到達すると、Database 文書は自動的に無視されるよう振り分けられ（下の <strong>Cutoff Action</strong> を参照）、ユーザーレベルでのアクティビティは追跡しなくなります。無視された文書はビューからも非表示になります。</p>
+<p>この設定は利用の制限を低く抑えることでデータベースの解析に役立ちます。例えば、使用頻度の低いデータベースを棚卸しするうえで、アプリケーションの利用ユーザーが 50 にも満たないものは削除したり、アーカイブ用の他のサーバーに移したいと考えたとき、ビュー上には高頻度で使用されるデータベースは考慮から除外され、低使用頻度のアプリケーションによりフォーカスできるようになっています。</p>
+<p><strong>Size Limit Cutoff Action</strong>: Database 文書の User List テーブルが情報を格納するのに大きくなりすぎた場合にどのようなアクションをとるかを指定します。</p>
+<p>Usage Auditor は Database 文書にアプリケーションにアクセスしたユーザー名を格納し、利用状況のユーザー別ビューにその内容を表示します。 Notes/Domino は「サマリーデータ」（ビューに表示するデータ）はおおよそ 64K というサイズ制限があります。ユーザー名の平均的な長さにもよりますが、この制限はおおよそ 1000 の名前に相当するものと想定されます。この制限に到達したときに、Usage Auditor がこの制限に対して行うふたつの対処からひとつを選択できます:</p>
 <ul>
 <li>
-<p><strong>Ignore</strong> marks the Database document as ignored, and user-level tracking is disabled for this application going forward. This is useful when the goal is to categorize applications into usage bands, where it may be assumed anything with a large number of users will fall in a certain category.</p>
+<p><strong>Ignore</strong> は Database 文書に対し今後無視するようにフラグが立ち、ユーザーレベルでのこれ以降のこのデータベース追跡を無効にします。とりわけアプリケーションの利用状況の多さや利用ユーザー数をアプリケーション毎に分類することを目的する場合にはとても効果的で、ある一定量の利用ユーザーがあることを証明するものです。</p>
 </li>
 <li>
-<p><strong>Reset</strong> removes all values from the user table and begins over. This option can be used when it is desirable to know which users most recently used the application.</p>
+<p><strong>Reset</strong> は User List 内の値をすべて削除して最初から記録を開始します。このオプションは、このアプリケーションを最近利用したユーザーを知る手がかりになります。</p>
 </li>
 </ul>
-<p>Database level statistics, for example the total number of hits, continue to be tracked regardless of which setting is chosen.</p>
-<p><strong>Use Common Name</strong>: Specifies whether the Database documents track users by Common name (e.g. John Smith) or by the Abbreviated name (e.g. John Smith/Sales/Acme). Storing common name reduces the byte size of the name and allows more names to be stored before hitting the Size Limit Cutoff as described above. However, if users have the same user name (for example, IDs in multiple organizational units or domains), they will not be distinguishable in Database documents.</p>
-<p><strong>Save Supporting Data</strong>: Choosing <strong>Yes</strong> for this setting will cause Usage Auditor to save compressed versions of the raw usage data collected from the server’s Activity Log. Saving this data can help Teamstudio support troubleshoot, should any issues arise. 
-Saving this data may also allow Teamstudio support to regenerate usage statistics for the entire period of usage tracked by Usage Auditor (vs. the default 2 week period tracked by the Domino server) if needed.
-It is recommended to enable this setting unless file size of the Usage Auditor database is an issue.</p>
-<p><strong>Detailed Logging</strong>: Detailed logging can be enabled to provide additional information about the scanning process, for troubleshooting purposes. Additional logging increases the file size of the Usage Auditor database.</p>
+<p>データベースレベルでの統計、例えばヒットした総合計数、はこの設定にかかわらず追跡を継続します。</p>
+<p><strong>Use Common Name</strong>: Database 文書の追跡をユーザーの共通名(例 John Smith) で行うか、階層名(例 John Smith/Sales/Acme) で行うかを指定します。共通名のほうが、ユーザー名の情報を格納するには少ないサイズで行うことができ、上記の Size Limit Cutoff に到達する機会を少なくさせます。言うまでもなく、共通名を使用すると、複数の組織やドメインに所属しているユーザーを追跡する場合には Database 文書ではそのユーザーがどの ID でアクセスしたか区別が付かなくなることがあります。</p>
+<p><strong>Save Supporting Data</strong>: この設定を Yes に選択すると、Usage Auditor はサーバーのアクティビティログから収集した利用状況の生データを圧縮して保存します。このデータを保存しておくと問題が発生した際に、チームスタジオのサポートがこのデータから Usage Auditor で利用状況を追跡した全期間の利用状況の統計（一方、Domino からでは 2週間分しか追跡できません）を再生成することができ、トラブルシューティングに役立ちます。</p>
+<p>Usage Auditor データベースのファイルサイズが問題にならない限り、この設定を Yes に選択することをお勧めします。</p>
+<p><strong>Detailed Logging</strong>: この設定ではトラブルシューティングが目的でスキャンのプロセスに関する詳細の情報を提供されるよう設定できます。この追加のログ出力では Usage Auditor データベースのファイルサイズを増加させますので、適時判断してください。</p>
                 
               
               
@@ -538,7 +537,7 @@ It is recommended to enable this setting unless file size of the Usage Auditor d
     <nav class="md-footer__inner md-grid" aria-label="フッター">
       
         
-        <a href="../using/" class="md-footer__link md-footer__link--prev" aria-label="前: Overview" rel="prev">
+        <a href="../using/" class="md-footer__link md-footer__link--prev" aria-label="前: 紹介" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -547,20 +546,20 @@ It is recommended to enable this setting unless file size of the Usage Auditor d
               <span class="md-footer__direction">
                 前
               </span>
-              Overview
+              紹介
             </div>
           </div>
         </a>
       
       
         
-        <a href="../scanning/" class="md-footer__link md-footer__link--next" aria-label="次: Scanning Servers" rel="next">
+        <a href="../scanning/" class="md-footer__link md-footer__link--next" aria-label="次: サーバーのスキャン" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 次
               </span>
-              Scanning Servers
+              サーバーのスキャン
             </div>
           </div>
           <div class="md-footer__button md-icon">

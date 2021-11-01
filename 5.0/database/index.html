@@ -558,14 +558,16 @@
                 
                 
                 <h1 id="database-usage-statistics">Database Usage Statistics</h1>
-<p>Teamstudio Usage Auditor reports the following categories of usage:
-* Overall applications usage
-* User-specific usage
-* Agent-specific statistics</p>
+<p>Teamstudio Usage Auditor reports the following categories of usage:</p>
+<ul>
+<li>Overall applications usage</li>
+<li>User-specific usage</li>
+<li>Agent-specific statistics</li>
+</ul>
 <figure>
 <p><img alt="Database Statistics" src="../img/database.png" /></p>
 </figure>
-<p>At each level, the total activity counts and last access dates are shown. For more detail on how activity counts are collected, see Scanning Servers](scanning.md).</p>
+<p>At each level, the total activity counts and last access dates are shown. For more detail on how activity counts are collected, see <a href="../scanning/">Scanning Servers</a>.</p>
 <p>The Database document also shows information on the number of Unique Users, User Days, and if appropriate the last date on which the Users table was reset.</p>
 <p>The Users table may be reset from time to time on Database documents for applications with a large number of users. This occurs because of size limits in Notes documents, and also affects the Unique Users count. For more information on User table resets, see below.</p>
 <h2 id="status-indicators">Status Indicators</h2>
@@ -589,7 +591,7 @@
 <h2 id="unique-counts">Unique Counts</h2>
 <p>Note that Unique Users counts are affected by reset/ignore events since they are calculated based on the User table.</p>
 <p>When a database document has been reset, the Unique User count will reset as well, however the database document will also display the Unique User count prior to the reset. The database views will show the higher of the two counts, followed by a plus (<strong>+</strong>) sign, to indicate that the total unique count may be higher.</p>
-<p>If a database is marked Ignore, either manually, or by hitting the user table limit, Unique Users will no longer be tracked; A plus (<strong>+</strong>) sign will be displayed following the Unique Count in views to indicate that the total unique count may be higher</p>
+<p>If a database is marked Ignore, either manually, or by hitting the user table limit, Unique Users will no longer be tracked; A plus (<strong>+</strong>) sign will be displayed following the Unique Count in views to indicate that the total unique count may be higher.</p>
 <p>For information on configuring servers to Ignore or Reset when this limit is hit, see the section on <strong>Cutoff Action</strong> in <a href="../configuring/">Configuring Usage Auditor</a>.</p>
 <h2 id="removing-user-activity">Removing User Activity</h2>
 <p>When database documents are selected, user activity for specific users can be removed via the <strong>Actions &gt; Remove User...</strong> action. This action is helpful when you have chosen not to track a particular user's activity at the database level, and wish to remove that user's activity from database documents that include the user. For more information on disabling user tracking, see <a href="../user/">User Usage Statistics</a>.</p>
