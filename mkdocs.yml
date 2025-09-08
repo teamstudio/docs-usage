@@ -1,0 +1,16 @@
+site_name: Teamstudio Usage 1.0
+
+nav:
+  - 'index.md'
+
+theme:
+  name: material
+      
+markdown_extensions:
+  - admonition
+  - md_in_html
+  - pymdownx.highlight
+  - pymdownx.superfences
+  
+plugins:
+  - search
