@@ -1,4 +1,4 @@
-# docs-export
+# docs-usage
 
 ## Installation
 * Install Python and pip
