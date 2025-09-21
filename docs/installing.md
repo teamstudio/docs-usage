@@ -25,7 +25,7 @@ For each server that you will scan, the ID that you plan to use with Teamstudio 
 * names.nsf
 
 ### Activity Logging
-Domino servers do not by collect detailed usage information by default. This needs to be enabled on every server that you will scan.
+Domino servers do not collect detailed usage information by default. This needs to be enabled on every server that you will scan.
 
 Activity Logging can be enabled on the *Server Configuration* document in the Domino Directory database. Teamstudio Usage reads the following activity streams:
 

@@ -3,7 +3,7 @@ Teamstudio Usage allows you to track user activity of Notes applications, provid
 
 ## Catalog
 
-The Catalog module reads information from your Domino server catalogs and address books to provide core lists of databases, templates and users. You can use the catalog to browse your databases by name, server, template or how recently they have been modified. The catalog module also allows you to configure filters to exclude certain databases and users from the other modules.
+The Catalog module reads information from your Domino server catalogs and address books to provide core lists of databases, templates and users. You can use the catalog to browse your databases by name, server, template or how recently they have been modified. The catalog module also allows you to configure filters to hide certain databases and users.
 
 More details are available on the [Catalog](catalog.md) page.
 

@@ -8,6 +8,9 @@ The Domino server only retains usage information for fourteen days so it is impo
 ## Viewing Usage
 To view usage data, select the second tab in the Usage window, titled *Usage*.
 
+### About Dates and Times
+Teamstudio Usage stores all data internally in UTC. Usage statistics are computed at the day level, where a day is defined as midnight UTC to midnight UTC on the following day. Any time you see a date by itself in the UI, it corresponds to a UTC day. This allows Usage to handle data consistently from multiple servers in different time zones. Full datetimes (with both a date and a time) are also stored in UTC but are displayed in the UI in your local time zone.
+
 ## Viewing Databases
 With the *Usage* tab selected, select the *Databases* tab from the second tab row. This will display the usage database view.
 

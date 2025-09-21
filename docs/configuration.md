@@ -23,7 +23,7 @@ The location of the notes.ini file is also required to run CatScan. This will us
     provide the folder containing the ini file.
 
 ### Notes ID File
-The location of the Notes ID file to use when scanning servers. 
+The full path and name of the Notes ID file to use when scanning servers (e.g., *C:\Notes\Data\User.id*.)
 
 ### Password
 The password for the Notes ID file above. The password is stored in an encrypted form, but it is passed to the CatScan program in plain text when you perform a scan. If you do not want to store a password, you can leave this blank and instead ensure that your Notes client is running whenever you run Usage. To allow Notes to share credentials with Usage, you must choose *File|Security|User Security...* from the menu in the Notes client, and check the box labeled *Don't prompt for a password from other Notes-based programs (reduces security)*.
@@ -38,6 +38,8 @@ The list of servers that Teamstudio Usage will scan for catalog and usage inform
     If you remove a server from this list, Usage will not include that server in future scans. However, all existing information will be retained. Teamstudio Usage never deletes any catalog or usage data.
     
 To pick from a list of available servers, click the down arrow at the end of the server name field and select *&lt;Scan&gt;* from the dropdown. This will populate the dropdown with a list of known servers from the address books on your local client and home mail server. Note that the ability to scan for available servers relies on earlier Notes settings being correct so you may see an error if, for example, the Notes program folder is not set correctly.
+
+There is no hard-coded limit on the number of servers that you can scan, but the time required to recompute usage statistics may become significant in large, busy environments. See [Performance](usage.md#performance) for more details.
 
 ### Schedule
 As with other information stored in log.nsf, activity logging will be deleted after a short retention period. By default this is two weeks. In order to ensure that Usage doesn't miss any activity data, you should run usage scans regularly. Once the data is imported into Usage, it will be retained permanently. To help with this, Teamstudio Usage can use the Windows Task Scheduler to run regular scans. This option allows you to schedule a scan every day at a time of your choosing. This will work for many cases, but if you require a more complex schedule then you can edit the task directly in Windows Task Scheduler. 

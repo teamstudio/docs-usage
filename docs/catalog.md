@@ -1,6 +1,6 @@
 # Catalog
 
-The Catalog module imports information from Domino server catalogs and address books. It serves as a master list of all databases, templates and users on your servers and all of the other modules in Teamstudio Usage refer to it.
+The Catalog module imports information from Domino server catalogs and address books. It serves as a master list of all databases, templates and users on your servers.
 
 The catalog is updated every time you run a server scan. Once you have configured Teamstudio Usage, you can update the catalog at any time by choosing *Scan Servers* from the *File* menu. This will update both Catalog and Usage data.
 
@@ -35,6 +35,9 @@ With the *Catalog* tab selected, select the *Users* tab from the second tab row.
 </figure>
 
 This view works very similarly to the databases view, described above. However, there is no server icon showing whether a user was found during the most recent scan because no one server is the final authority on whether a user name exists. The same user may be defined in multiple address books on different servers, and may be present in some but not others.
+
+### User and Server Names
+Teamstudio Usage stores all user and server names internally in full canonical form (e.g., *CN=Demo Adviser/O=Teamstudio*). The UI displays only the common name (*Demo Adviser* in the previous example.) You can hover over the name to view the full name in abbreviated form (*Demo Adviser/Teamstudio*.)
 
 ## Filters
 Filters allow you to hide databases and users from the UI based on a range of criteria. Teamstudio Usage will continue to collect catalog and usage data for any filtered databases and users, so you can add and remove filters at any time with no loss of data. To filter a database or user, switch the the appropriate tab in the catalog, right-click on the entry you want to hide and choose *Ignore* from the popup menu.
