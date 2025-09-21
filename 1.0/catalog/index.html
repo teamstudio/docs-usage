@@ -289,6 +289,19 @@
     Viewing Users
   </a>
   
+    <nav class="md-nav" aria-label="Viewing Users">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-and-server-names" class="md-nav__link">
+    User and Server Names
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -396,6 +409,19 @@
     Viewing Users
   </a>
   
+    <nav class="md-nav" aria-label="Viewing Users">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-and-server-names" class="md-nav__link">
+    User and Server Names
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -419,7 +445,7 @@
                 
 
 <h1 id="catalog">Catalog</h1>
-<p>The Catalog module imports information from Domino server catalogs and address books. It serves as a master list of all databases, templates and users on your servers and all of the other modules in Teamstudio Usage refer to it.</p>
+<p>The Catalog module imports information from Domino server catalogs and address books. It serves as a master list of all databases, templates and users on your servers.</p>
 <p>The catalog is updated every time you run a server scan. Once you have configured Teamstudio Usage, you can update the catalog at any time by choosing <em>Scan Servers</em> from the <em>File</em> menu. This will update both Catalog and Usage data.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -443,6 +469,8 @@
 <p><img alt="catalog_users" src="../img/catuser.png" /></p>
 </figure>
 <p>This view works very similarly to the databases view, described above. However, there is no server icon showing whether a user was found during the most recent scan because no one server is the final authority on whether a user name exists. The same user may be defined in multiple address books on different servers, and may be present in some but not others.</p>
+<h3 id="user-and-server-names">User and Server Names</h3>
+<p>Teamstudio Usage stores all user and server names internally in full canonical form (e.g., <em>CN=Demo Adviser/O=Teamstudio</em>). The UI displays only the common name (<em>Demo Adviser</em> in the previous example.) You can hover over the name to view the full name in abbreviated form (<em>Demo Adviser/Teamstudio</em>.)</p>
 <h2 id="filters">Filters</h2>
 <p>Filters allow you to hide databases and users from the UI based on a range of criteria. Teamstudio Usage will continue to collect catalog and usage data for any filtered databases and users, so you can add and remove filters at any time with no loss of data. To filter a database or user, switch the the appropriate tab in the catalog, right-click on the entry you want to hide and choose <em>Ignore</em> from the popup menu.</p>
 <figure>

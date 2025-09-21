@@ -490,7 +490,7 @@
 provide the folder containing the ini file.</p>
 </div>
 <h3 id="notes-id-file">Notes ID File</h3>
-<p>The location of the Notes ID file to use when scanning servers. </p>
+<p>The full path and name of the Notes ID file to use when scanning servers (e.g., <em>C:\Notes\Data\User.id</em>.)</p>
 <h3 id="password">Password</h3>
 <p>The password for the Notes ID file above. The password is stored in an encrypted form, but it is passed to the CatScan program in plain text when you perform a scan. If you do not want to store a password, you can leave this blank and instead ensure that your Notes client is running whenever you run Usage. To allow Notes to share credentials with Usage, you must choose <em>File|Security|User Security...</em> from the menu in the Notes client, and check the box labeled <em>Don't prompt for a password from other Notes-based programs (reduces security)</em>.</p>
 <h3 id="domino-servers">Domino Servers</h3>
@@ -504,6 +504,7 @@ provide the folder containing the ini file.</p>
 <p>If you remove a server from this list, Usage will not include that server in future scans. However, all existing information will be retained. Teamstudio Usage never deletes any catalog or usage data.</p>
 </div>
 <p>To pick from a list of available servers, click the down arrow at the end of the server name field and select <em>&lt;Scan&gt;</em> from the dropdown. This will populate the dropdown with a list of known servers from the address books on your local client and home mail server. Note that the ability to scan for available servers relies on earlier Notes settings being correct so you may see an error if, for example, the Notes program folder is not set correctly.</p>
+<p>There is no hard-coded limit on the number of servers that you can scan, but the time required to recompute usage statistics may become significant in large, busy environments. See <a href="../usage/#performance">Performance</a> for more details.</p>
 <h3 id="schedule">Schedule</h3>
 <p>As with other information stored in log.nsf, activity logging will be deleted after a short retention period. By default this is two weeks. In order to ensure that Usage doesn't miss any activity data, you should run usage scans regularly. Once the data is imported into Usage, it will be retained permanently. To help with this, Teamstudio Usage can use the Windows Task Scheduler to run regular scans. This option allows you to schedule a scan every day at a time of your choosing. This will work for many cases, but if you require a more complex schedule then you can edit the task directly in Windows Task Scheduler. </p>
 <div class="admonition note">

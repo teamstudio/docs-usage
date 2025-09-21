@@ -297,6 +297,19 @@
     Viewing Usage
   </a>
   
+    <nav class="md-nav" aria-label="Viewing Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#about-dates-and-times" class="md-nav__link">
+    About Dates and Times
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -478,6 +491,19 @@
     Viewing Usage
   </a>
   
+    <nav class="md-nav" aria-label="Viewing Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#about-dates-and-times" class="md-nav__link">
+    About Dates and Times
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -602,6 +628,8 @@
 <p>The Domino server only retains usage information for fourteen days so it is important that you run server scans regularly to import the data before it is lost. The installation section explains how to configure Teamstudio Usage to run a scan every night.</p>
 <h2 id="viewing-usage">Viewing Usage</h2>
 <p>To view usage data, select the second tab in the Usage window, titled <em>Usage</em>.</p>
+<h3 id="about-dates-and-times">About Dates and Times</h3>
+<p>Teamstudio Usage stores all data internally in UTC. Usage statistics are computed at the day level, where a day is defined as midnight UTC to midnight UTC on the following day. Any time you see a date by itself in the UI, it corresponds to a UTC day. This allows Usage to handle data consistently from multiple servers in different time zones. Full datetimes (with both a date and a time) are also stored in UTC but are displayed in the UI in your local time zone.</p>
 <h2 id="viewing-databases">Viewing Databases</h2>
 <p>With the <em>Usage</em> tab selected, select the <em>Databases</em> tab from the second tab row. This will display the usage database view.</p>
 <figure>
