@@ -1,0 +1,737 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.3">
+    
+    
+      
+        <title>Exporting Data - Teamstudio Usage 1.1</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.edf004c2.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#exporting-data" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Teamstudio Usage 1.1" class="md-header__button md-logo" aria-label="Teamstudio Usage 1.1" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Teamstudio Usage 1.1
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Exporting Data
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Teamstudio Usage 1.1" class="md-nav__button md-logo" aria-label="Teamstudio Usage 1.1" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Teamstudio Usage 1.1
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Documentation
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../installing/" class="md-nav__link">
+        Installing Teamstudio Usage
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configuration/" class="md-nav__link">
+        Configuration
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../catalog/" class="md-nav__link">
+        Catalog
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../usage/" class="md-nav__link">
+        Usage
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Exporting Data
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Exporting Data
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#databases" class="md-nav__link">
+    Databases
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#users" class="md-nav__link">
+    Users
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detail" class="md-nav__link">
+    Detail
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#filtering-data" class="md-nav__link">
+    Filtering Data
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-a-report" class="md-nav__link">
+    Creating a Report
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating a Report">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuring-the-output-format" class="md-nav__link">
+    Configuring the Output Format
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuring-the-report-type" class="md-nav__link">
+    Configuring the Report Type
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuring-the-date-range" class="md-nav__link">
+    Configuring the Date Range
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuring-the-columns" class="md-nav__link">
+    Configuring the Columns
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sorting-the-output" class="md-nav__link">
+    Sorting the Output
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preview" class="md-nav__link">
+    Preview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#loading-and-saving-reports" class="md-nav__link">
+    Loading and Saving Reports
+  </a>
+  
+    <nav class="md-nav" aria-label="Loading and Saving Reports">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#saving-a-report" class="md-nav__link">
+    Saving a Report
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loading-a-report" class="md-nav__link">
+    Loading a Report
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filters/" class="md-nav__link">
+        Filters
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../release/" class="md-nav__link">
+        Release Notes
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#databases" class="md-nav__link">
+    Databases
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#users" class="md-nav__link">
+    Users
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detail" class="md-nav__link">
+    Detail
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#filtering-data" class="md-nav__link">
+    Filtering Data
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-a-report" class="md-nav__link">
+    Creating a Report
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating a Report">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuring-the-output-format" class="md-nav__link">
+    Configuring the Output Format
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuring-the-report-type" class="md-nav__link">
+    Configuring the Report Type
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuring-the-date-range" class="md-nav__link">
+    Configuring the Date Range
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuring-the-columns" class="md-nav__link">
+    Configuring the Columns
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sorting-the-output" class="md-nav__link">
+    Sorting the Output
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preview" class="md-nav__link">
+    Preview
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#loading-and-saving-reports" class="md-nav__link">
+    Loading and Saving Reports
+  </a>
+  
+    <nav class="md-nav" aria-label="Loading and Saving Reports">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#saving-a-report" class="md-nav__link">
+    Saving a Report
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loading-a-report" class="md-nav__link">
+    Loading a Report
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+<h1 id="exporting-data">Exporting Data</h1>
+<p>Usage allows you to export data from both the Catalog and Usage modules. Three different report formats are available.</p>
+<h3 id="databases">Databases</h3>
+<p>The <em>Databases</em> report has one row for each database in the catalog. It defaults to a basic set of catalog properties and usage data, and you can optionally add any additional properties you need.</p>
+<h3 id="users">Users</h3>
+<p>The <em>Users</em> report has one row for each user in the catalog. As with the <em>Database</em> report, a core set of catalog and usage properties are provided by default, and you can add any additional ones you need.</p>
+<h3 id="detail">Detail</h3>
+<p>The <em>Detail</em> report is useful when you need to analyze which users are accessing which database. It contains one row for every user/database combination that has a non-zero usage count. So for a given database, you can see which users are accessing that database, and for a given user you can see which databases they have accessed. You can add additional catalog and usage properties to the report if needed.</p>
+<h2 id="filtering-data">Filtering Data</h2>
+<p>Reports respect any existing database and user filters you have defined. So, for example, a database that has been filtered out will not appear at all in <em>Databases</em> and <em>Detail</em> reports and will not be included in any usage counts in a <em>Users</em> report.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Reports include only usage data by users. Server and Agent usage is excluded.</p>
+</div>
+<h2 id="creating-a-report">Creating a Report</h2>
+<p>To create a report, select <em>Export Data</em> from the <em>File</em> menu. This will display the <em>Export Data</em> dialog.</p>
+<figure>
+<p><img alt="Export Data Dialog" src="../img/exportmain.png" /></p>
+</figure>
+<h3 id="configuring-the-output-format">Configuring the Output Format</h3>
+<p>Usage currently only supports saving reports as a delimited text file. The file will be UTF-8 encoded.</p>
+<ul>
+<li><strong>Output File</strong> The file where the output will be written. The file will be overwritten if it already exists.</li>
+<li><strong>Separator</strong> Files can be written using either a comma or a tab as the field separator.</li>
+<li><strong>Include Header Row</strong> Include a header containing the column names as the first row of the file.</li>
+</ul>
+<h3 id="configuring-the-report-type">Configuring the Report Type</h3>
+<p>The three different report types, <em>Databases</em>, <em>Users</em> and <em>Detail</em> are described above. Switching report type will replace the currently selected list of columns with a default set of columns appropriate for the new type.</p>
+<h3 id="configuring-the-date-range">Configuring the Date Range</h3>
+<p>Usage offers three date range selection options.</p>
+<ul>
+<li><strong>All Time</strong> The report will include all usage counts for all time.</li>
+<li><strong>Last</strong> The report will include usage data for a number of preceding time periods. Selecting this option will enable a numeric input field to select the number of periods and a selector for the period type: <em>Year(s)</em>, <em>Month(s)</em> or <em>Day(s)</em>. For example, you could choose to include data for the previous 7 days, the last 6 months or the last 1 year.</li>
+<li><strong>Custom</strong> The report will include usage for a fixed time period. Selecting this option will enable two date input fields to enter the start and end dates of the range. You do not need to specify both, they default to the earliest and latest data available, respectively. For example, you can generate a year-to-date report by setting the <em>From</em> date to January 1 of the current year and leaving the <em>To</em> date blank. The dates that you specify are inclusive, so the previous example includes usage on January 1.</li>
+</ul>
+<h3 id="configuring-the-columns">Configuring the Columns</h3>
+<p>Each report type comes with a default set of columns. These consist of the database server and pathname for database/detail reports, the user name for user/detail reports and basic Notes, web and total usage counts.</p>
+<p>To remove one or more columns, select them in the column list and right-click to display the context menu. Choosing <em>Remove</em> from the menu will remove the selected columns. Note that the core catalog columns (database server and path, user name) cannot be removed since they are an essential part of the report. Attempting to remove them will display a warning message and the columns will not be removed.</p>
+<p>To add additional columns, click the <em>Add</em> button below the column list. This will display the <em>Add Columns</em> dialog.</p>
+<figure>
+<p><img alt="Export Add Columns Dialog" src="../img/exportaddcolumns.png" /></p>
+</figure>
+<p>This dialog contains a categorized list of the columns available to be added to the the current report. You can select one or more columns to add to the report. If you have removed a column from the report accidentally, you can use this dialog to add it back. You may need to expand the categories to see the available columns.</p>
+<h3 id="sorting-the-output">Sorting the Output</h3>
+<p>Usage allows you to sort the report on any combination of columns. For each column, you can choose whether it should be sorted ascending, sorted descending or unsorted. Just like a standard Notes view, the first sorted column determines the primary sort order for the report, the next sorted column determines the secondary ordering and so on. You can drag columns up and down the list to rearrange the sort order if necessary. For example, to find the most used databases on each server, you would set the <em>Server</em> column to sort ascending, the <em>Total Count</em> column to sort descending and all other columns to sort <em>None</em>. This will group databases by server and then, within each server, arrange databases from the highest usage count to the lowest. You can interleave sorted and unsorted columns, so you may wish to leave the <em>Pathname</em> column next to the <em>Server</em> column to keep the full database path together, with the <em>Total Count</em> column following.</p>
+<h2 id="preview">Preview</h2>
+<p>The <em>Preview...</em> button at the bottom left of the dialog will show up to 50 matching rows from the report. This allows you to check that you have the column definitions set up correctly before starting the export. It may take a long time for the preview dialog to display any rows if you have a lot of Usage data. In a sorted report, Usage needs to essentially generate the entire report in order to find the first few rows. However, the dialog will indicate that it is working, and you can close it at any time without waiting for the preview to complete.</p>
+<h2 id="loading-and-saving-reports">Loading and Saving Reports</h2>
+<p>Usage allows you to save report configurations and reload them later. This is useful if, for example, you want to run the same report each month showing usage data for the previous month. The saved configuration contains the report type, date range and column configurations. It does not contain the output type and location since they may change from run to run.</p>
+<h3 id="saving-a-report">Saving a Report</h3>
+<p>To save the current report configuration, click the <em>Save...</em> button. This will display a prompt asking for a name for the configuration.</p>
+<figure>
+<p><img alt="Export Save Dialog" src="../img/exportsave.png" /></p>
+</figure>
+<p>You can choose any descriptive name here, it is simply used so that you can identify the configuration when you want to load it again. A short name will work best. If a configuration with this name already exists, you will be asked whether you want to overwrite it.</p>
+<h3 id="loading-a-report">Loading a Report</h3>
+<p>To load a report configuration, click the <em>Load...</em> button. This will display the <em>Select Saved Configuration</em> dialog.</p>
+<figure>
+<p><img alt="Export Load Dialog" src="../img/exportload.png" /></p>
+</figure>
+<p>This shows all saved configurations, grouped by report type.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can delete a saved configuration from this dialog by right-clicking on a configuration and choosing <em>Delete</em> from the popup menu.</p>
+</div>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../usage/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Usage" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Usage
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../filters/" class="md-footer__link md-footer__link--next" aria-label="Next: Filters" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Filters
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.0bbba5b5.min.js"}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e1a181d9.min.js"></script>
+      
+    
+  </body>
+</html>
