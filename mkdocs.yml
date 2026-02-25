@@ -1,4 +1,4 @@
-site_name: Teamstudio Usage 1.0
+site_name: Teamstudio Usage 1.1
 
 nav:
   - 'index.md'
@@ -7,6 +7,7 @@ nav:
   - 'overview.md'
   - 'catalog.md'
   - 'usage.md'
+  - 'export.md'
   - 'filters.md'
   - 'release.md'
 

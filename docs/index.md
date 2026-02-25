@@ -1,2 +1,2 @@
 # Documentation
-This is the documentation for Teamstudio Usage 1.0.
+This is the documentation for Teamstudio Usage 1.1.
