@@ -1,0 +1,1008 @@
+
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../usage/">
+      
+      
+        <link rel="next" href="../filters/">
+      
+      
+        
+          <link rel="alternate" href="../../export/" hreflang="en">
+        
+          <link rel="alternate" href="./" hreflang="ja">
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.4">
+    
+    
+      
+        <title>データ出力 - Teamstudio Usage 1.1</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
+    <a href="../" title="Teamstudio Usage 1.1" class="md-header__button md-logo" aria-label="Teamstudio Usage 1.1" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Teamstudio Usage 1.1
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              データ出力
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="言語切り替え">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../export/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="ja" class="md-select__link">
+              日本語
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="検索">
+        
+        <button type="reset" class="md-search__icon md-icon" title="クリア" aria-label="クリア" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            検索を初期化
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="ナビゲーション" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../" title="Teamstudio Usage 1.1" class="md-nav__button md-logo" aria-label="Teamstudio Usage 1.1" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Teamstudio Usage 1.1
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ドキュメンテーション
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../installing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Teamstudio Usage のインストール
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    設定
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    概要
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    カタログ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../usage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    使用状況
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    データ出力
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    データ出力
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#databases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Databases
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Users
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        データのフィルタリング
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        レポートの作成
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="レポートの作成">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configure-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configure Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        レポートタイプの指定
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        日付範囲の指定
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        列の設定
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        出力のソート
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        プレビュー
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        レポート設定のロードと保存
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="レポート設定のロードと保存">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        レポート設定の保存
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        レポート設定のロード
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    フィルタリング
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../release/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    リリースノート
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#databases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Databases
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Users
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        データのフィルタリング
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        レポートの作成
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="レポートの作成">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configure-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configure Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        レポートタイプの指定
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        日付範囲の指定
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        列の設定
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        出力のソート
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        プレビュー
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        レポート設定のロードと保存
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="レポート設定のロードと保存">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        レポート設定の保存
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        レポート設定のロード
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="_1">データ出力</h1>
+<p>Usage では、Catalog モジュールおよび Usage モジュールの両方からデータをエクスポートすることができます。利用可能なレポート形式は 3 種類あります。</p>
+<h3 id="databases">Databases</h3>
+<p><em>Databases</em> レポートは、Catalog 内の各データベースごとに 1 行が作成されます。デフォルトでは、基本的な Catalog プロパティと Usage データのセットが含まれており、必要に応じて追加のプロパティを任意で追加することができます。</p>
+<h3 id="users">Users</h3>
+<p><em>Users</em> レポートは、Catalog 内の各ユーザーごとに 1 行が作成されます。<em>Database</em> レポートと同様に、デフォルトでは Catalog および Usage の基本的なプロパティのセットが含まれており、必要に応じて追加のプロパティを任意で追加することができます。</p>
+<h3 id="detail">Detail</h3>
+<p><em>Detail</em> レポートは、どのユーザーがどのデータベースにアクセスしているかを分析する必要がある場合に役立ちます。このレポートには、Usage カウントが 0 ではないユーザーとデータベースの組み合わせごとに 1 行が作成されます。したがって、特定のデータベースについては、そのデータベースにアクセスしているユーザーを確認でき、特定のユーザーについては、そのユーザーがアクセスしたデータベースを確認することができます。必要に応じて、Catalog および Usage の追加プロパティをレポートに追加することもできます。</p>
+<h2 id="_2">データのフィルタリング</h2>
+<p>それぞれのレポートは、定義されているデータベースおよびユーザーのフィルタリングを反映します。たとえば、フィルターによって除外されたデータベースは、<em>Databases</em> レポートおよび <em>Detail</em> レポートには一切表示されず、<em>Users</em> レポートの Usage カウントにも含まれません。</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>レポートには、ユーザーによる Usage データのみが含まれます。サーバーおよび Agent による Usage は含まれません。</p>
+</div>
+<h2 id="_3">レポートの作成</h2>
+<p>レポートを作成するには、<em>File</em> メニューから <em>Export Data</em> を選択します。すると、<em>Export Data</em> ダイアログが表示されます。</p>
+<figure>
+<p><img alt="Export Data Dialog" src="../../img/exportmain.png" /></p>
+</figure>
+<h3 id="configure-output">Configure Output</h3>
+<p>Usage は現在、レポートの保存形式として区切り付きテキストファイルのみをサポートしています。ファイルは UTF-8 でエンコードされます。</p>
+<ul>
+<li><strong>Output File</strong> 出力を書き込むファイルを指定します。ファイルがすでに存在する場合は上書きされます。</li>
+<li><strong>Separator</strong> フィールドの区切り文字として、カンマまたはタブのいずれかを使用してファイルを書き出すことができます。</li>
+<li><strong>Include Header Row</strong> ファイルの最初の行に、列名を含むヘッダーを追加します。</li>
+</ul>
+<h3 id="_4">レポートタイプの指定</h3>
+<p>3 種類のレポートタイプ　<em>Databases</em>、<em>Users</em>、<em>Detail</em> については前述のとおりです。レポートタイプを切り替えると、現在選択されている列の一覧は、新しいタイプに適したデフォルトの列セットに置き換えられます。</p>
+<h3 id="_5">日付範囲の指定</h3>
+<p>Usage では、日付範囲の選択方法として 3 つのオプションが用意されています。</p>
+<ul>
+<li><strong>All Time</strong> レポートには、全期間のすべての Usage カウントが含まれます。</li>
+<li><strong>Last</strong> レポートには、直前の一定期間分の Usage データが含まれます。このオプションを選択すると、期間数を指定する数値入力フィールドと、期間の種類 <em>Year(s)</em>、<em>Month(s)、</em>Day(s)* を選択するセレクターが有効になります。たとえば、直前の 7 日間、直近 6 か月、または直近 1 年のデータを含めるように指定することができます。</li>
+<li><strong>Custom</strong> レポートには、指定した固定期間の Usage データが含まれます。このオプションを選択すると、期間の開始日と終了日を入力するための 2 つの日付入力フィールドが有効になります。両方を指定する必要はなく、それぞれデフォルトでは利用可能な最も古いデータと最新のデータが設定されます。たとえば、<em>From</em> 日付を当年の 1 月 1 日に設定し、<em>To</em> 日付を空欄のままにすることで、年初から現在までのレポートを作成できます。指定した日付は両端を含むため、この例では 1 月 1 日の Usage も含まれます。</li>
+</ul>
+<h3 id="_6">列の設定</h3>
+<p>各レポートタイプには、デフォルトの列セットが用意されています。これには、database/detail レポートの場合はデータベースのサーバー名とパス名、user/detail レポートの場合はユーザー名、および基本的な Notes、web、合計の Usage カウントが含まれます。</p>
+<p>1 つ以上の列を削除するには、列一覧で対象の列を選択し、右クリックしてコンテキストメニューを表示します。メニューから <em>Remove</em> を選択すると、選択した列が削除されます。なお、コアとなる Catalog 列（データベースサーバーおよびパス、ユーザー名）はレポートの重要な要素であるため削除できません。これらを削除しようとすると警告メッセージが表示され、列は削除されません。</p>
+<p>追加の列を追加するには、列一覧の下にある <em>Add</em> ボタンをクリックします。すると、<em>Add Columns</em> ダイアログが表示されます。</p>
+<figure>
+<p><img alt="Export Add Columns Dialog" src="../../img/exportaddcolumns.png" /></p>
+</figure>
+<p>このダイアログには、現在のレポートに追加できる列がカテゴリ別の一覧として表示されます。レポートに追加したい列を 1 つ以上選択することができます。誤ってレポートから列を削除してしまった場合も、このダイアログを使用して再度追加することができます。利用可能な列を表示するには、カテゴリを展開する必要がある場合があります。</p>
+<h3 id="_7">出力のソート</h3>
+<p>Usage では、任意の列の組み合わせでレポートを並べ替えることができます。各列について、昇順、降順、または並べ替えなしを選択できます。標準的な Notes ビューと同様に、最初に並べ替えが設定された列がレポートの主な並べ替え順を決定し、次に並べ替えが設定された列が第 2 の並べ替え順を決定し、以降も同様です。必要に応じて、列を一覧内で上下にドラッグして並べ替え順を変更することもできます。たとえば、各サーバーで最も使用されているデータベースを見つけるには、<em>Server</em> 列を昇順、<em>Total Count</em> 列を降順に設定し、他のすべての列は <em>None</em> に設定します。これにより、まずサーバーごとにデータベースがグループ化され、そのサーバー内では Usage カウントの多い順から少ない順に並べられます。並べ替え対象の列と並べ替えなしの列を混在させることもできるため、完全なデータベースパスを分かりやすく保つために <em>Server</em> 列の隣に <em>Pathname</em> 列を配置し、その後に <em>Total Count</em> 列を配置することもできます。</p>
+<h2 id="_8">プレビュー</h2>
+<p>ダイアログ左下にある <em>Preview...</em> ボタンをクリックすると、レポートに一致する最大 50 行のデータを表示できます。これにより、エクスポートを開始する前に列の定義が正しく設定されているかを確認できます。Usage データが大量にある場合、プレビューのダイアログに行が表示されるまでに時間がかかることがあります。特に並べ替えが設定されたレポートでは、最初の数行を取得するために Usage が実質的にレポート全体を生成する必要があるためです。ただし、ダイアログには処理中であることが表示され、プレビューの完了を待たずにいつでも閉じることができます。</p>
+<h2 id="_9">レポート設定のロードと保存</h2>
+<p>Usage では、レポートの設定を保存し、後で再度読み込むことができます。たとえば、毎月同じレポートを実行して前月の Usage データを確認したい場合などに便利です。保存される設定には、レポートタイプ、日付範囲、および列の設定が含まれます。出力形式や出力先は実行ごとに変更される可能性があるため、保存されません。</p>
+<h3 id="_10">レポート設定の保存</h3>
+<p>現在のレポート設定を保存するには、<em>Save...</em> ボタンをクリックします。すると、設定の名前を入力するためのプロンプトが表示されます。</p>
+<figure>
+<p><img alt="Export Save Dialog" src="../../img/exportsave.png" /></p>
+</figure>
+<p>ここでは任意のわかりやすい名前を付けることができます。この名前は、後で設定を読み込む際に識別するために使用されます。短い名前にすることをお勧めします。同じ名前の設定がすでに存在する場合は、上書きするかどうかを確認するメッセージが表示されます。</p>
+<h3 id="_11">レポート設定のロード</h3>
+<p>レポート設定を読み込むには、<em>Load...</em> ボタンをクリックします。すると、<em>Select Saved Configuration</em> ダイアログが表示されます。</p>
+<figure>
+<p><img alt="Export Load Dialog" src="../../img/exportload.png" /></p>
+</figure>
+<p>ここには、保存されているすべての設定がレポートタイプごとにグループ化されて表示されます。</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>このダイアログでは、保存されている設定を削除することもできます。削除するには、対象の設定を右クリックし、ポップアップメニューから <em>Delete</em> を選択します。</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
