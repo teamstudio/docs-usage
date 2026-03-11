@@ -1,129 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>None./</loc>
-        <lastmod>2026-03-10</lastmod>
+        <loc>https://docs2.teamstudio.com/docs-usage/1.1/</loc>
+        <lastmod>2026-03-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="None"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs2.teamstudio.com/docs-usage/1.1/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs2.teamstudio.com/docs-usage/1.1ja/"/>
     </url>
     <url>
-        <loc>Nonecatalog/</loc>
-        <lastmod>2026-03-10</lastmod>
+        <loc>https://docs2.teamstudio.com/docs-usage/1.1/catalog/</loc>
+        <lastmod>2026-03-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonecatalog/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/catalog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs2.teamstudio.com/docs-usage/1.1/catalog/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs2.teamstudio.com/docs-usage/1.1ja/catalog/"/>
     </url>
     <url>
-        <loc>Noneconfiguration/</loc>
-        <lastmod>2026-03-10</lastmod>
+        <loc>https://docs2.teamstudio.com/docs-usage/1.1/configuration/</loc>
+        <lastmod>2026-03-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneconfiguration/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs2.teamstudio.com/docs-usage/1.1/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs2.teamstudio.com/docs-usage/1.1ja/configuration/"/>
     </url>
     <url>
-        <loc>Noneexport/</loc>
-        <lastmod>2026-03-10</lastmod>
+        <loc>https://docs2.teamstudio.com/docs-usage/1.1/export/</loc>
+        <lastmod>2026-03-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneexport/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/export/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs2.teamstudio.com/docs-usage/1.1/export/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs2.teamstudio.com/docs-usage/1.1ja/export/"/>
     </url>
     <url>
-        <loc>Nonefilters/</loc>
-        <lastmod>2026-03-10</lastmod>
+        <loc>https://docs2.teamstudio.com/docs-usage/1.1/filters/</loc>
+        <lastmod>2026-03-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonefilters/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/filters/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs2.teamstudio.com/docs-usage/1.1/filters/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs2.teamstudio.com/docs-usage/1.1ja/filters/"/>
     </url>
     <url>
-        <loc>Noneinstalling/</loc>
-        <lastmod>2026-03-10</lastmod>
+        <loc>https://docs2.teamstudio.com/docs-usage/1.1/installing/</loc>
+        <lastmod>2026-03-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneinstalling/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/installing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs2.teamstudio.com/docs-usage/1.1/installing/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs2.teamstudio.com/docs-usage/1.1ja/installing/"/>
     </url>
     <url>
-        <loc>Noneoverview/</loc>
-        <lastmod>2026-03-10</lastmod>
+        <loc>https://docs2.teamstudio.com/docs-usage/1.1/overview/</loc>
+        <lastmod>2026-03-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneoverview/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/overview/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs2.teamstudio.com/docs-usage/1.1/overview/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs2.teamstudio.com/docs-usage/1.1ja/overview/"/>
     </url>
     <url>
-        <loc>Nonerelease/</loc>
-        <lastmod>2026-03-10</lastmod>
+        <loc>https://docs2.teamstudio.com/docs-usage/1.1/release/</loc>
+        <lastmod>2026-03-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonerelease/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/release/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs2.teamstudio.com/docs-usage/1.1/release/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs2.teamstudio.com/docs-usage/1.1ja/release/"/>
     </url>
     <url>
-        <loc>Noneusage/</loc>
-        <lastmod>2026-03-10</lastmod>
+        <loc>https://docs2.teamstudio.com/docs-usage/1.1/usage/</loc>
+        <lastmod>2026-03-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneusage/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/usage/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs2.teamstudio.com/docs-usage/1.1/usage/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs2.teamstudio.com/docs-usage/1.1ja/usage/"/>
     </url>
     <url>
-        <loc>Noneja/</loc>
-        <lastmod>2026-03-10</lastmod>
+        <loc>https://docs2.teamstudio.com/docs-usage/1.1/ja/</loc>
+        <lastmod>2026-03-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs2.teamstudio.com/docs-usage/1.1/ja/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs2.teamstudio.com/docs-usage/1.1"/>
     </url>
     <url>
-        <loc>Noneja/catalog/</loc>
-        <lastmod>2026-03-10</lastmod>
+        <loc>https://docs2.teamstudio.com/docs-usage/1.1/ja/catalog/</loc>
+        <lastmod>2026-03-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/catalog/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonecatalog/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs2.teamstudio.com/docs-usage/1.1/ja/catalog/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs2.teamstudio.com/docs-usage/1.1catalog/"/>
     </url>
     <url>
-        <loc>Noneja/configuration/</loc>
-        <lastmod>2026-03-10</lastmod>
+        <loc>https://docs2.teamstudio.com/docs-usage/1.1/ja/configuration/</loc>
+        <lastmod>2026-03-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/configuration/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneconfiguration/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs2.teamstudio.com/docs-usage/1.1/ja/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs2.teamstudio.com/docs-usage/1.1configuration/"/>
     </url>
     <url>
-        <loc>Noneja/export/</loc>
-        <lastmod>2026-03-10</lastmod>
+        <loc>https://docs2.teamstudio.com/docs-usage/1.1/ja/export/</loc>
+        <lastmod>2026-03-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/export/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneexport/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs2.teamstudio.com/docs-usage/1.1/ja/export/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs2.teamstudio.com/docs-usage/1.1export/"/>
     </url>
     <url>
-        <loc>Noneja/filters/</loc>
-        <lastmod>2026-03-10</lastmod>
+        <loc>https://docs2.teamstudio.com/docs-usage/1.1/ja/filters/</loc>
+        <lastmod>2026-03-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/filters/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonefilters/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs2.teamstudio.com/docs-usage/1.1/ja/filters/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs2.teamstudio.com/docs-usage/1.1filters/"/>
     </url>
     <url>
-        <loc>Noneja/installing/</loc>
-        <lastmod>2026-03-10</lastmod>
+        <loc>https://docs2.teamstudio.com/docs-usage/1.1/ja/installing/</loc>
+        <lastmod>2026-03-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/installing/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneinstalling/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs2.teamstudio.com/docs-usage/1.1/ja/installing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs2.teamstudio.com/docs-usage/1.1installing/"/>
     </url>
     <url>
-        <loc>Noneja/overview/</loc>
-        <lastmod>2026-03-10</lastmod>
+        <loc>https://docs2.teamstudio.com/docs-usage/1.1/ja/overview/</loc>
+        <lastmod>2026-03-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/overview/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneoverview/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs2.teamstudio.com/docs-usage/1.1/ja/overview/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs2.teamstudio.com/docs-usage/1.1overview/"/>
     </url>
     <url>
-        <loc>Noneja/release/</loc>
-        <lastmod>2026-03-10</lastmod>
+        <loc>https://docs2.teamstudio.com/docs-usage/1.1/ja/release/</loc>
+        <lastmod>2026-03-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/release/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonerelease/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs2.teamstudio.com/docs-usage/1.1/ja/release/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs2.teamstudio.com/docs-usage/1.1release/"/>
     </url>
     <url>
-        <loc>Noneja/usage/</loc>
-        <lastmod>2026-03-10</lastmod>
+        <loc>https://docs2.teamstudio.com/docs-usage/1.1/ja/usage/</loc>
+        <lastmod>2026-03-11</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="Noneja/usage/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneusage/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://docs2.teamstudio.com/docs-usage/1.1/ja/usage/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs2.teamstudio.com/docs-usage/1.1usage/"/>
     </url>
 </urlset>
